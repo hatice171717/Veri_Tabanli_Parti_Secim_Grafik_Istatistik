@@ -149,6 +149,7 @@
             this.BtnOyGirisYap.TabIndex = 12;
             this.BtnOyGirisYap.Text = "OY GİRİŞİ YAP";
             this.BtnOyGirisYap.UseVisualStyleBackColor = true;
+            this.BtnOyGirisYap.Click += new System.EventHandler(this.BtnOyGirisYap_Click);
             // 
             // BtnCikisYap
             // 
@@ -158,6 +159,7 @@
             this.BtnCikisYap.TabIndex = 13;
             this.BtnCikisYap.Text = "ÇIKIŞ YAP";
             this.BtnCikisYap.UseVisualStyleBackColor = true;
+            this.BtnCikisYap.Click += new System.EventHandler(this.BtnCikisYap_Click);
             // 
             // BtnGrafikler
             // 
@@ -167,8 +169,9 @@
             this.BtnGrafikler.TabIndex = 14;
             this.BtnGrafikler.Text = "GRAFİKLER";
             this.BtnGrafikler.UseVisualStyleBackColor = true;
+            this.BtnGrafikler.Click += new System.EventHandler(this.BtnGrafikler_Click);
             // 
-            // Form1
+            // FrmOyGiris
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -191,7 +194,7 @@
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "Form1";
+            this.Name = "FrmOyGiris";
             this.Text = "VTGS";
             this.ResumeLayout(false);
             this.PerformLayout();
