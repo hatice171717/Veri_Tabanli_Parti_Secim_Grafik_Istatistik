@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Veri_Tabanli_Parti_Secim_Grafik_Istatistik
 {
-    public partial class Form1 : Form
+    public partial class FrmGrafikler : Form
     {
-        public Form1()
+        public FrmGrafikler()
         {
             InitializeComponent();
         }
